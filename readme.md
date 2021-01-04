@@ -7,3 +7,7 @@
 - change index.js cause we removed public folder and it will try to render public folder. So change to res.send('hello world');
 - start server node bin/www (without nodemon)
 - you can see it in local host 3000 in post man Get req.
+- npm install -g nodemon (if it not installed globally)
+- start your server with nodemon
+- next using for process one function(middleware) after another. But at the end we must use return to stop processing req and return whatever left.
+- added middlewares
